@@ -1,13 +1,13 @@
-#### Tarjan's Algorithim to Find Strongly Connected Components
+#### Tarjan's Algorithm to Find Strongly Connected Components
 
 Stack Invariant
 
-To deal with the random traversal order of DFS, Tarjan's Algorithim maintains a stack from which low link values can be updated. Nodes are added to 
+To deal with the random traversal order of DFS, Tarjan's Algorithm maintains a stack from which low link values can be updated. Nodes are added to 
 the stack of valid node ones they are explored for the first time. They are removed from the stack each time an SCC is found.
 
 This modifies our low link update condition. To update the low link value of node u to the low link value of node v, there must be a path from u to v and v must be in the stack.
 
-Tarjan's Algorithim Steps
+Tarjan's Algorithm Steps
 
 Tarjan's algorithm is a popular algorithm used to find strongly connected components (SCCs) in a directed graph. It is named after its creator, Robert Tarjan. SCCs are subsets of vertices in a graph where each vertex is reachable from every other vertex within the subset.
 
