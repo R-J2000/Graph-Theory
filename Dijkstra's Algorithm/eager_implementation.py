@@ -1,4 +1,4 @@
-# IMPLEMENTATION OF EAGER DIJKSTRA'S SHORTEST PATH ALGORITHIM (for reference)
+# IMPLEMENTATION OF EAGER DIJKSTRA'S SHORTEST PATH ALGORITHM (for reference)
 
 def dijkstra_algorithm(graph, start_node):
     unvisited_nodes = list(graph.get_nodes())
