@@ -1,4 +1,4 @@
-# IMPLEMENTATION OF BELLMAN-FORD ALGORITHIM (for reference)
+# IMPLEMENTATION OF BELLMAN-FORD ALGORITHM (for reference)
 
 def bellman_ford(graph, start):
     """
