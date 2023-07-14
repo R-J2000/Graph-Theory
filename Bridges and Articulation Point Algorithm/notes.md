@@ -1,6 +1,6 @@
-#### Bridges and Articulation Point Algorithim
+#### Bridges and Articulation Point Algorithm
 
-Bridges Algorithim
+Bridges Algorithm
 
     Start at any node and perform a DFS traversal labeling nodes with an increasing id value as you go. Track the id and the smallest low link value.
     A low link value of a node is the smallest id reachable from that node--including itself. A bridge is found when the id of the node you are 
@@ -8,7 +8,7 @@ Bridges Algorithim
     
     This approach to find the bridges will take O(V+E). This is accomplished by using the call back feature in the DFS.
 
-Articulation Points Algorithim
+Articulation Points Algorithm
 
 To find articulation points in a graph, you can use the Depth-First Search (DFS) algorithm with some modifications. Articulation points, also known as cut vertices, are the vertices in a graph whose removal would result in the increase of the number of connected components in the graph.
 
