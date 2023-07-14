@@ -38,9 +38,9 @@ For Directed Graphs:
 
 **Finding Eulerian Paths and Circuits**
 
-An algorithim that can find the Eulerian Path, will give us the Circuits for free. The algorithim discussed will have a time complexity of O(E).
+An algorithm that can find the Eulerian Path, will give us the Circuits for free. The algorithm discussed will have a time complexity of O(E).
 
-Eulerian Path Algorithim
+Eulerian Path Algorithm
 
     a. The find_eulerian_path function takes a graph represented as an adjacency list dictionary as input.
     b. It first calculates the degree of each vertex in the graph and stores it in the degrees dictionary.
