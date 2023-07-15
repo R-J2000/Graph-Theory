@@ -4,7 +4,8 @@ The mathematical theory of the properties and applications of graphs (networks).
 
 **Graph Types**:
     
-    a. Undirected Graph - A graph in which edges have no orientation. The edge (u, v) is identical to the edge (v, u). [See Attached Illustration]
+    a. Undirected Graph - A graph in which edges have no orientation. The edge (u, v) is identical to the edge (v, u). 
+    ![image](https://github.com/R-J2000/Data-Structures/assets/136933973/0f8a1f86-3ba3-4629-82ea-5f44986c62a8)
     b. Directed Graph (diagraph) - A graph in which edges have orientations. For example, the edge (u, v) is the edge from node u to node v. 
         [See Attached Illustration] 
     c. Weighted Graph - Graphs–directed or undirected–where each edge has a certain weight (that represents an arbitrary 
